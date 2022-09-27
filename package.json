@@ -18,7 +18,7 @@
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
     "cypress": "^10.8.0",
     "dayjs": "^1.11.5",
-    "esbuild": "^0.14.54",
+    "esbuild": "^0.15.9",
     "prettier": "^2.7.1"
   },
   "cypress-cucumber-preprocessor": {
