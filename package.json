@@ -1,0 +1,44 @@
+{
+  "name": "cypress-cucumber-html-report-boilerplate",
+  "version": "1.0.0",
+  "description": "Generating Cucumber HTML report in Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec **/*.feature --browser chrome",
+    "report": "node cypress.report.js",
+    "pretty": "prettier --write \"./**/*.{js,json,yml}\""
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "report"
+  ],
+  "author": "Burak Kaygusuz",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.8.0",
+    "dayjs": "^1.11.5",
+    "esbuild": "^0.14.54",
+    "prettier": "^2.7.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step_definitions/**/*.js",
+    "json": {
+      "enabled": true,
+      "formatter": ".bin/cucumber-json-formatter",
+      "output": "cypress/reports/json/cucumber-report.json"
+    },
+    "messages": {
+      "enabled": true,
+      "output": "cypress/reports/messages/cucumber-messages.ndjson"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burakkaygusuz/cypress-cucumber-html-report-example.git"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "multiple-cucumber-html-reporter": "^2.0.0"
+  }
+}
