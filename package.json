@@ -39,6 +39,6 @@
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.1.0",
-    "multiple-cucumber-html-reporter": "^3.0.2"
+    "multiple-cucumber-html-reporter": "^3.1.0"
   }
 }
