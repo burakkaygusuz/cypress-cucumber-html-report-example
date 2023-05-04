@@ -11,7 +11,7 @@ Make sure you have installed the following prerequisites on your development mac
 | OS      | Node                                       |
 |---------|--------------------------------------------|
 | Windows | `winget install OpenJS.NodeJS.LTS`         |
-| macOS   | `brew install node@16`                     |
+| macOS   | `brew install node@18`                     |
 
 ## Executing The Tests
 
