@@ -4,7 +4,7 @@
   "description": "Generating Cucumber HTML report in Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --spec **/*.feature --browser chrome",
+    "test": "cypress run --e2e --spec **/*.feature",
     "report": "node cypress.report.js",
     "pretty": "prettier --write \"./**/*.{js,json,yml}\""
   },
