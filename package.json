@@ -39,6 +39,6 @@
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^17.0.0",
     "dayjs": "^1.11.7",
-    "multiple-cucumber-html-reporter": "^3.3.0"
+    "multiple-cucumber-html-reporter": "^3.4.0"
   }
 }
