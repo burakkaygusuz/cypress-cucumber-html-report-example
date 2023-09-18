@@ -13,7 +13,7 @@ node_modules/
 # Optional npm cache directory
 .npm
 
-### WebStorm###
+### WebStorm ###
 .idea/
 
 ### Cypress ###
@@ -22,4 +22,7 @@ node_modules/
 /cypress/screenshots
 /cypress/reports/
 
+
+### Cucumber ###
 *.ndjson
+.bin/
