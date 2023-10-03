@@ -24,7 +24,6 @@
     "stepDefinitions": "cypress/e2e/step_definitions/**/*.js",
     "json": {
       "enabled": true,
-      "formatter": ".bin/cucumber-json-formatter",
       "output": "cypress/reports/json/cucumber-report.json"
     },
     "messages": {
