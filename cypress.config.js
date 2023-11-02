@@ -5,7 +5,7 @@ const {
   afterRunHandler,
 } = require('@badeball/cypress-cucumber-preprocessor');
 const createEsbuildPlugin = require('@badeball/cypress-cucumber-preprocessor/esbuild');
-const fs = require('fs');
+const fs = require('fs').promises;
 
 const setupNodeEvents = async (on, config) => {
   await addCucumberPreprocessorPlugin(on, config, {
@@ -22,7 +22,7 @@ const setupNodeEvents = async (on, config) => {
   on('after:run', async (results) => {
     if (results) {
       await afterRunHandler(config);
-      fs.writeFileSync(
+      await fs.writeFile(
         'cypress/reports/results.json',
         JSON.stringify(
           {
