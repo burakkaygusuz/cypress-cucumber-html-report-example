@@ -18,7 +18,7 @@
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "cypress": "^13.6.4",
     "esbuild": "^0.20.0",
-    "prettier": "3.2.2"
+    "prettier": "3.2.5"
   },
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": "cypress/e2e/step_definitions/**/*.js",
