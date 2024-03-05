@@ -5,13 +5,13 @@ const fs = require('fs');
 const runInfo = JSON.parse(fs.readFileSync('cypress/reports/results.json', 'utf8'));
 
 const getOSName = () => {
-  const osNames = {
-    darwin: 'osx',
-    win32: 'windows',
-    ubuntu: 'ubuntu',
-  };
-
-  return osNames[runInfo['osName']] || console.log('Undefined browser');
+  return (
+    {
+      darwin: 'osx',
+      win32: 'windows',
+      ubuntu: 'ubuntu',
+    }[runInfo['osName']] || console.log('Undefined OS')
+  );
 };
 
 const generateReport = () => {
