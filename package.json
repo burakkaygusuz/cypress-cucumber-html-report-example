@@ -36,7 +36,7 @@
     "url": "git+https://github.com/burakkaygusuz/cypress-cucumber-html-report-example.git"
   },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^21.0.1",
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.2",
     "dayjs": "^1.11.13",
     "multiple-cucumber-html-reporter": "^3.8.0"
   }
