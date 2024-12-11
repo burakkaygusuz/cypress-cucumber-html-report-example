@@ -16,7 +16,7 @@
   "author": "Burak Kaygusuz",
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
-    "cypress": "^13.15.0",
+    "cypress": "^13.16.1",
     "esbuild": "^0.24.0",
     "prettier": "3.4.2"
   },
