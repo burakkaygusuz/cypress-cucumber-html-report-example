@@ -16,7 +16,7 @@
   "author": "Burak Kaygusuz",
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^6.0.2",
-    "cypress": "^13.16.1",
+    "cypress": "^13.17.0",
     "prettier": "3.4.2"
   },
   "cypress-cucumber-preprocessor": {
